@@ -1,6 +1,6 @@
 ※事前情報
 請求書 は 「届いた」
-請求日 は 「document.getElementby("invoiceDate").value」JS実行
+請求日 は 「document.getElementById("invoiceDate").value」JS実行
 到着日ロス は 請求日と今日の日数差
 収受日 は 「未定」
 最大受付日 は 請求日に、「+7日」を日時加算 ※+7日
